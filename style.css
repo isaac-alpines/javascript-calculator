@@ -1,0 +1,65 @@
+* {
+    font-family: 'Readex Pro', sans-serif;
+}
+body {
+    background-color: #eceff8;
+    display: flex;
+}
+.container {
+    width: 400px;
+    margin: auto;
+    padding: 30px;
+    background-color: #f7f8fa;
+    border-radius: 30px;
+    box-shadow: rgb(0 0 0 / 10%) 0px 0 100px;
+}
+#display {
+    text-align: right;
+    line-height: 50px;
+    padding: 0 10px;
+    font-size: 50px;
+    margin-bottom: 30px;
+    height: 50px;
+}
+#display-history {
+    text-align: right;
+    padding: 0 10px;
+    font-size: 22px;
+    height: 38px;
+}
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.button {
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    line-height: 3;
+    margin: 10px;
+    background-color: #e8eff5;
+    border-radius: 25px;
+    outline: none;
+    text-decoration: none;
+    user-select: none;
+}
+.button:hover {
+    background-color: #323330;
+    color: white;
+    transition: 0.3s ease-in-out;
+}
+.btn-clear {
+    background-color: #ffecec;
+    color: #e76e6e;
+}
+.btn-operator {
+    background-color: #ff920f;
+    color: white;
+}
+.btn-equal {
+    background-color: #28cb78;
+    color: white;
+}
+.display-equal-text {
+    color: #ff920f;
+}
